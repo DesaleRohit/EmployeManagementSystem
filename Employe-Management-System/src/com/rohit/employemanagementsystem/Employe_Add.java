@@ -27,7 +27,7 @@ public class Employe_Add {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
             writer.write("Employee ID       : " + emp.employ_id + "\n");
             writer.write("Employee Name     : " + emp.name + "\n");
-            writer.write("Father's Name     : " + emp.father_name + "\n");
+            writer.write("Last Name     : " + emp.last_name + "\n");
             writer.write("Contact Number    : " + emp.employ_contact + "\n");
             writer.write("Email             : " + emp.email + "\n");
             writer.write("Position          : " + emp.position + "\n");

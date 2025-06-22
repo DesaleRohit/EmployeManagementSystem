@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EmployDetail {
     String name;
-    String father_name;
+    String last_name;
     String employ_id;
     String email;
     String position;
@@ -17,8 +17,8 @@ public class EmployDetail {
         System.out.println("Enter Employee's name : ");
         name = scanner.nextLine();
 
-        System.out.println("Enter Employee's Father name : ");
-        father_name = scanner.nextLine();
+        System.out.println("Enter Employee's Last name : ");
+        last_name = scanner.nextLine();
 
         System.out.println("Enter Employee's ID : ");
         employ_id = scanner.nextLine();
